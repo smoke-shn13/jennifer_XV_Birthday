@@ -152,7 +152,7 @@ article > section:nth-child(2) {
     color: #fff;
 }
 article > section:nth-child(3) {
-	background-image: linear-gradient(rgba(249 211 244 / 50%), rgba(229 144 226 / 90%)),url(../Imagenes/fondo-intermedio.jpg);
+	background-image: linear-gradient(rgba(249 211 244 / 50%), rgba(229 144 226 / 90%)),url(../Imagenes/portada.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
@@ -234,46 +234,8 @@ article > section:nth-child(6) {
     margin-bottom: 20px;
     font-size: 22px;
 }
-#contactForm {
-    display: flex;
-    justify-content: space-between;
-    flex-flow: wrap;
-    margin: 60px 0 12px;
-}
-label {
-    color: #d1d1d1;
-    font-size: 1.12rem;
-    margin: 12px 0;
-}
-.col-input {
-    width: 33%;
-	padding: 0 0.5em;
-}
-.col-input input {
-    height: 45px;
-    margin: 15px 0;
-    border: 1px solid #ccc;
-}
-#mensaje {
-    width: 74%;
-    border: 1px solid #ccc;
-    margin: -11px 0;
-}
-.col-input input:focus, #col-text textarea:focus {
-    border: 1px solid #3f3d3d;
-    box-shadow: 0 0 8px #3f3d3d;
-    transition: all 1s;
-}
-input[type="submit"] {
-    background-color: #cf5ff3;
-    color: #fff;
-    display: inline-block;
-    width: 215px;
-    height: 45px;
-    font-size: 1rem;
-    margin: 12px 0;
-    border-radius: 8px;
-}
+
+
 /*pie de pagina*/
 #PieDePagina {
 	display: flex;
